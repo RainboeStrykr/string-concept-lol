@@ -52,7 +52,7 @@ class Professor extends Person {
 
 public class UniversitySystem {
     public static void main(String[] args) {
-        Person p = new Student("Alice", 20, "alice@uni.edu", "CS2021", "Computer Science");
+        Person p = new Student("Abhiraj", 20, "ab6111@srmist.edu.in", "MAB201T", "Transform Values and Boundary Problems");
         p.introduce();
         p.getContactInfo();
         System.out.println("Accessing name via Person: " + p.name);
