@@ -13,7 +13,6 @@ class Restaurant {
         System.out.println("Estimated time: 30 minutes");
     }
 }
-
 class PizzaPlace extends Restaurant {
     public PizzaPlace(String name) {
         super(name);
